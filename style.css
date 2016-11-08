@@ -1,1 +1,6 @@
 @import "../page-styles.css"
+
+.container {
+  display:flex;
+  border: 1px solid;
+}
