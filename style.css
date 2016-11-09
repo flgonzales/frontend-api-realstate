@@ -1,6 +1,15 @@
 @import "../page-styles.css"
 
+/*mobile first*/
 .container {
   display:flex;
   border: 1px solid;
+}
+
+/*computer browsing*/
+@media (min-width: 768px) {
+  .container {
+    flex-direction: row;
+    flex-grow: 1;
+  }
 }
